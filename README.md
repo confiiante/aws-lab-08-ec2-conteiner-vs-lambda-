@@ -34,7 +34,7 @@ Executar a mesma aplicação Python em um contêiner Docker hospedado em uma ins
 ![EC2 Docker](prints/funcionandoconteinerec2.PNG)
 
 ### Função Lambda
-![Lambda](functionlamba.PNG)
+![Lambda](prints/functionlamba.PNG)
 
 ### Registro CloudWatch
 ![Function URL](prints/invocaçõesmonitor.PNG)
