@@ -31,7 +31,7 @@ Executar a mesma aplicação Python em um contêiner Docker hospedado em uma ins
 ## Prints
 
 ### Instância EC2 com Docker + Python
-![EC2 Docker](prints/funcionandoconteinerec2.PNG)
+![EC2 Docker](prints/funcionandoconteinerec.PNG)
 
 ### Função Lambda
 ![Lambda](prints/functionlamba.PNG)
