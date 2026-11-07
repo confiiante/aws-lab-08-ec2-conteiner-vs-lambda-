@@ -8,39 +8,36 @@ Executar a mesma aplicação Python em um contêiner Docker hospedado em uma ins
 
 ## Arquitetura
 
-![Arquitetura AWS EC2 Docker Lambda](img/arquitetura.png)
+![Arquitetura AWS EC2 Docker Lambda](prints/aws-ec2-conteiner-vs-lambda-arquitetura.png)
 
 ## O que eu fiz
 
-- [ ] Conferi o alerta de orçamento e selecionei a região `us-east-1`.
-- [ ] Verifiquei a instalação do Python e do Git no computador.
-- [ ] Configurei meu nome e e-mail no Git.
-- [ ] Criei a pasta do projeto e o arquivo `app.py`.
-- [ ] Criei o Dockerfile para definir a construção da imagem Docker.
-- [ ] Inicializei o repositório Git e verifiquei os arquivos não rastreados.
-- [ ] Lancei a instância EC2 `lab-conteiner` com Docker instalado via User Data.
-- [ ] Conectei à EC2 e verifiquei a instalação do Docker.
-- [ ] Criei os arquivos `app.py` e `Dockerfile` na instância.
-- [ ] Construí a imagem Docker e executei o contêiner.
-- [ ] Acessei a aplicação pelo navegador.
-- [ ] Criei a função Lambda `lab-ola` com a mesma lógica da aplicação Python.
-- [ ] Configurei a Function URL e testei a função pelo navegador.
-- [ ] Documentei as diferenças entre EC2 com Docker e AWS Lambda.
-- [ ] Realizei a limpeza dos recursos e conferi o Billing.
+- [x] Conferi o alerta de orçamento e selecionei a região `sa-east-1`.
+- [x] Verifiquei a instalação do Python e do Git no computador.
+- [x] Configurei meu nome e e-mail no Git.
+- [x] Criei a pasta do projeto e o arquivo `app.py`.
+- [x] Criei o Dockerfile para definir a construção da imagem Docker.
+- [x] Inicializei o repositório Git e verifiquei os arquivos não rastreados.
+- [x] Lancei a instância EC2 `lab-conteiner` com Docker instalado via User Data.
+- [x] Conectei à EC2 e verifiquei a instalação do Docker.
+- [x] Criei os arquivos `app.py` e `Dockerfile` na instância.
+- [x] Construí a imagem Docker e executei o contêiner.
+- [x] Acessei a aplicação pelo navegador.
+- [x] Criei a função Lambda `lab-ola` com a mesma lógica da aplicação Python.
+- [x] Configurei a Function URL e testei a função pelo navegador.
+- [x] Documentei as diferenças entre EC2 com Docker e AWS Lambda.
+- [x] Realizei a limpeza dos recursos e conferi o Billing.
 
 ## Prints
 
-### Instância EC2 com Docker
-![EC2 Docker](img/ec2-docker.png)
-
-### Aplicação Python no contêiner
-![Aplicação Docker](img/docker-app.png)
+### Instância EC2 com Docker + Python
+![EC2 Docker](prints/funcionandoconteinerec2.PNG)
 
 ### Função Lambda
-![Lambda](img/lambda.png)
+![Lambda](functionlamba.PNG)
 
-### Function URL funcionando
-![Function URL](img/function-url.png)
+### Registro CloudWatch
+![Function URL](prints/invocaçõesmonitor.PNG)
 
 ## Comparação dos modelos
 
@@ -68,9 +65,9 @@ Domínio 3 — Tecnologia e serviços de nuvem (AWS Certified Cloud Practitioner
 
 ## Limpeza — prevenção de custos
 
-- [ ] Excluí a Function URL e a função Lambda.
-- [ ] Encerrei (Terminate) a instância EC2.
-- [ ] Excluí o Security Group criado, caso não esteja em uso.
-- [ ] Verifiquei se existem volumes EBS não utilizados.
-- [ ] Verifiquei se existem Elastic IPs alocados.
-- [ ] Conferi o AWS Billing para identificar possíveis recursos remanescentes.
+- [x] Excluí a Function URL e a função Lambda.
+- [x] Encerrei (Terminate) a instância EC2.
+- [x] Excluí o Security Group criado, caso não esteja em uso.
+- [x] Verifiquei se existem volumes EBS não utilizados.
+- [x] Verifiquei se existem Elastic IPs alocados.
+- [x] Conferi o AWS Billing para identificar possíveis recursos remanescentes.
